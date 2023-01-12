@@ -1,8 +1,8 @@
 <template>
   <q-page id="routeSelect">
     <q-toolbar class="text-white bg-teal-8">
-      <q-toolbar-title> Toolbar </q-toolbar-title>
-      <q-btn flat round dense icon="more_vert" />
+      <q-toolbar-title>  Route </q-toolbar-title>
+      <q-btn to="/route/add-route" flat round dense icon="add" color="red" />
     </q-toolbar>
 
     <div class="q-pa-md form-style">
