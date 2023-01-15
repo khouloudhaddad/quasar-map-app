@@ -32,6 +32,22 @@ const routes = [
           },
         ],
       },
+
+      {
+        path: "/account",
+        component: () => import("pages/AuthPage.vue"),
+        children: [
+          {
+            path: "",
+            component: () => import("pages/account/AccountMenu.vue"),
+          },
+
+          {
+            path: "my-details",
+            component: () => import("pages/account/MyDetails.vue"),
+          },
+        ],
+      },
     ],
   },
 

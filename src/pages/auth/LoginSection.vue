@@ -11,7 +11,7 @@
       </div>
 
       <div class="q-pa-md q-gutter-md">
-        <div class="text-center"> Register and Get Extra features!</div>
+        <div class="text-center"> Login and Get Extra features!</div>
 
 
         <q-input outlined stack-label label="Email" >
@@ -21,12 +21,6 @@
         </q-input>
 
         <q-input outlined stack-label label="Password" >
-          <template v-slot:append>
-            <q-icon name="close" />
-          </template>
-        </q-input>
-
-        <q-input outlined stack-label label="Confirm Password" >
           <template v-slot:append>
             <q-icon name="close" />
           </template>

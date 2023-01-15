@@ -62,7 +62,7 @@
   .form-style {
     margin: 0 auto;
     height: calc(80vh - 100px);
-    max-width: 500px;
+    max-width: 100%;
   }
 }
 </style>

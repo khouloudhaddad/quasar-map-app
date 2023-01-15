@@ -19,9 +19,9 @@
             <q-tabs
               class="text-light bg-teal"
             >
-              <q-tab name="/map" icon="explore" label="Map" />
-              <q-tab name="/route" icon="directions" label="Routes" />
-              <q-tab name="/auth" icon="login" label="Auth" />
+              <q-route-tab name="/map" icon="explore" label="Map" />
+              <q-route-tab to="/route" icon="directions" label="Routes" />
+              <q-route-tab to="/auth" icon="login" label="Auth" />
             </q-tabs>
     </q-footer>
   </q-layout>
